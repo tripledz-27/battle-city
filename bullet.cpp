@@ -12,7 +12,7 @@
     x += dx;
     y += dy;
     rect.x = x;
-    rect.y = dy;
+    rect.y = y;
     if(x < TILE_SIZE || x > SCREEN_WIDTH - TILE_SIZE ||
         y < TILE_SIZE || y > SCREEN_HEIGHT - TILE_SIZE){
             active = false;
